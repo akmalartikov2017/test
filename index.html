@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="icons/css/all.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<div class="img">
+			<img src="img/novo.gif" width="180" alt="Новосибирская отделка">
+			<div class="tel"><a href="tel:+79133859092" title="Позвонить!"><i class="fas fa-phone-square-alt"></a></i></div>
+		</div>
+		<div class="about">
+			<h1>О Нас</h1>
+			<p>Мы Предоставляем качественный, и не дорогой ремонт квартир по <span>г.Новосибирск</span></p>
+		</div>
+		<h1 class="services">Услуги</h1>
+
+		<div class="servise">
+			<div>
+				<img src="img/pokraska.jpg" alt="Покраска стен" width="100">
+				<p>Осуществляем комплексную покраску стен на ваш вкус</p>
+			</div>
+			<div>
+				<img src="img/shtukaturka.jpg" alt="Штукатурка стен"  width="100">
+				<p>Выравниваем стены отштукатуривая их</p>
+			</div>
+		</div>
+
+		<div class="servise">
+			<div>
+				<img src="img/kafel.jpg" alt="Кладка кафеля"  width="100">
+				<p>Кладем любую плитку</p>
+			</div>
+			<div>
+				<img src="img/cosmetik.jpg" alt="Косметический ремонт"  width="100">
+				<p> Общий косметический ремонт</p>
+			</div>
+		</div>
+
+		<div class="form-wrapper" id="visible">
+			<div class="icon" onclick="formClose()"><i class="fa fa-times"></i></div>
+			<form action="">
+				<input required  placeholder="Имя" type="text" name="name" ><br>
+				<input  required placeholder="Номер по г.Новосибирск" type="number" name="number"><br>
+				<input  placeholder="Описание по желанию" type="text" name="description" >
+				<input type="submit" name="submit">
+			</form>
+		</div>
+		<button onclick="formClick()">Оставить заявку!</button>
+
+	</header>
+
+	<footer>
+		<div>
+			<a href=" https://wa.me/+79133859092">
+				<i class="fab fa-whatsapp"></i>
+			</a>
+			<a href="https://www.facebook.com/nigmat.samiev.1">
+				<i class="fab fa-facebook"></i>
+			</a>
+
+			<a href="https://www.instagram.com/samievnegmat/">
+				<i class="fab fa-instagram"></i>
+			</a>
+		</div>
+		<p class="copyright"></p>
+	</footer>
+
+
+	<script src="index.js"></script>
+</body>
+</html>
