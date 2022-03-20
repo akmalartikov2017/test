@@ -138,6 +138,7 @@ i:hover{
 }
 
 .form-wrapper{
+	padding-top: 70px;
 	position: fixed;
 	text-align: center;
 	height: 100vh;
