@@ -1,235 +1,224 @@
-*{
-	margin: 0;
-	padding: 0;
-	font-family: sans-serif;
-	box-sizing: border-box;
-	text-decoration: none;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI";
+  box-sizing: border-box;
+  text-decoration: none;
 }
-.img{
-	text-align: center;
-	height:240px;
-	background: #031117;
-	border-bottom: 7px solid white;
-
+.img {
+  text-align: center;
+  background: #031117;
+  border-bottom: 7px solid white;
 }
-header{
-	background-image: url("img/tools.jpg");
-	background-size: cover;
-	background-repeat: no-repeat;
-	padding-bottom: 20px;
-
+header {
+  background: linear-gradient(90deg, #f598a8, #f6edb2);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 20px;
 }
-.tel{
-	text-align: right;
-	color: #50C878;
-	font-size: 45px;
+.tel {
+  text-align: right;
+  color: #50c878;
+  font-size: 45px;
 }
-.tel i{
-	margin: 0px 30px;
+.tel i {
+  margin: 0px 30px;
 }
-.tel a{
-	color: #B8D340;
+.tel a {
+  color: #30b069;
 }
-.about{
-	max-width: 190px;
-	margin: 0 auto;
-	text-align: center;
-	margin-top: 80px;
+.about {
+  max-width: 190px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 80px;
 }
 
-.servise{
-	display: flex;
-	justify-content: center;
-	align-items: center	;
-	color: white;
-	text-align: center;
-	margin-top: 50px;
+.servise {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  margin-top: 50px;
 }
 
-.servise div{
-	margin: 10px;
-	max-width: 200px;
-
+.servise div {
+  margin: 10px;
+  max-width: 200px;
 }
 
-
-
-
-.services{
-	width: 140px;
-	margin: 0 auto;
-	margin-top: 70px;
+.services {
+  width: 140px;
+  margin: 0 auto;
+  margin-top: 70px;
 }
-h1,p{
-	color: white;
-	line-height: 20px;
-	letter-spacing: 1px;
+h1,
+p {
+  color: white;
+  line-height: 20px;
+  letter-spacing: 1px;
 }
-h1{
-	/*border-bottom: 5px solid red;*/
-	padding-bottom: 5px;
-	font-family: 'Montserrat', sans-serif;
-	color: red;
+h1 {
+  padding-bottom: 5px;
+  font-family: sans-serif;
+  color: #258550;
 }
-p{
-	font-size: 20px;
-	color:#B8D340;
+p {
+  font-size: 20px;
+  color: black;
+  font-weight: 600;
 }
-.about h1{
-	margin-bottom: 20px;
+.about h1 {
+  margin-bottom: 20px;
 }
-span{
-	font-weight: 800;
-	color: black;
+span {
+  font-weight: 800;
+  color: black;
 }
 
-
-
-@media screen and (max-width:320px){
-	p{
-		font-size: 17px;
-	}
+@media screen and (max-width: 320px) {
+  p {
+    font-size: 17px;
+  }
 }
 
-button{
-	display: block;
-	margin: 25px auto;
-	outline: none;
-	width: 150px;
-	height: 40px;
-	border-radius: 20px;
-	border: 2px solid black;
-	background-color: #30B069;
-	font-weight: 600;
-	
+button {
+  display: block;
+  margin: 25px auto;
+  outline: none;
+  width: 150px;
+  height: 40px;
+  border-radius: 20px;
+  border: 2px solid black;
+  background-color: #30b069;
+  font-weight: 600;
 }
-button:active{
-	opacity: .5;
+button:active {
+  opacity: 0.5;
 }
-footer{
-	background-color: #031117;
-	text-align: center;
-	padding-bottom: 5px;
-}
-
-footer i{
-	font-size: 30px;
-	margin:10px 5px 5px 5px;
-
-}
-footer p{
-	font-size: 12px;
-	color: white;
-	margin-top: 3px;
-}
-.fa-whatsapp{
-	color: #5BF176;
+footer {
+  background-color: #031117;
+  text-align: center;
+  padding-bottom: 5px;
 }
 
-.fa-facebook{
-	color: #3F62A9;
-
+footer i {
+  font-size: 30px;
+  margin: 10px 5px 5px 5px;
 }
-.fa-instagram{
-	color: #E25A48;
+footer p {
+  font-size: 12px;
+  color: white;
+  margin-top: 3px;
 }
-i:hover{
-	opacity: .5;
-}
-
-.form-wrapper{
-	padding-top: 70px;
-	position: fixed;
-	text-align: center;
-	height: 100vh;
-	background:rgba(0,0,0, 0.7) ;
-	width: 100%;
-	bottom:0;
-	transition: all 0.3s ease;
-	left: -800px;
+.fa-whatsapp {
+  color: #5bf176;
 }
 
-.icon{
-	text-align: right;
-	margin-right: 20px;
-	font-size: 55px;
-	color: white;
+.fa-facebook {
+  color: #3f62a9;
+}
+.fa-instagram {
+  color: #e25a48;
+}
+i:hover {
+  opacity: 0.5;
 }
 
-form{
-	text-align: center;
-	margin: 0 auto;
-	display: inline-block;
-	width: 300px;
-}
-input[name=name],input[name=number]{
-	width: 290px;
-	height:40px;
-	margin-top: 5px;
-	border-radius: 20px;
-	border: 1px solid red;
-	outline: none;
-	background: black;
-	padding-left: 8px;
-	color: white;
-}
-input[name=description]{
-	width: 290px;
-	margin-top: 5px;
-	border-radius: 20px;
-	border: 1px solid red;
-	outline: none;
-	height:250px;
-	background: black;
-	padding-left: 8px;
-	color: white;
-
-}
-input::placeholder{
-	color: white;
-}
-input[name=submit]{
-	width: 120px;
-	height: 35px;
-	border-radius: 20px;
-	border: 1px solid red;
-	outline: none;
-	color: white;
-	margin-top: 3px;
-	background: black;
-}
-input[name=submit]:active{
-	opacity: .5;
+.form-wrapper {
+  padding-top: 70px;
+  position: fixed;
+  text-align: center;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  bottom: 0;
+  transition: all 0.3s ease;
+  left: -800px;
 }
 
-@media screen and (min-width: 768px){
-	.form-wrapper{
-		left: -1000px;
-	}
+.icon {
+  text-align: right;
+  margin-right: 20px;
+  font-size: 55px;
+  color: white;
 }
-@media screen and (min-width: 1024px){
-	.form-wrapper{
-		left: -1500px;
-	}
-	.servise div img {
-		width: 200px;
-	}
-	.servise{
-		justify-content: space-around;
-		margin-top: 60px;
-	}
-	h1{
-		font-size: 35px;
-	}
 
-	.form-wrapper{
-		left: -1500px;
-	}
-	header p{
-		font-size: 25px;
-		line-height: 30px;
-	}
+form {
+  text-align: center;
+  margin: 0 auto;
+  display: inline-block;
+  width: 300px;
 }
-.visible{
-	left: 0;
+input[name="name"],
+input[name="number"] {
+  width: 290px;
+  height: 40px;
+  margin-top: 5px;
+  border-radius: 20px;
+  border: 1px solid red;
+  outline: none;
+  background: black;
+  padding-left: 8px;
+  color: white;
+}
+input[name="description"] {
+  width: 290px;
+  margin-top: 5px;
+  border-radius: 20px;
+  border: 1px solid red;
+  outline: none;
+  height: 250px;
+  background: black;
+  padding-left: 8px;
+  color: white;
+}
+input::placeholder {
+  color: white;
+}
+input[name="submit"] {
+  width: 120px;
+  height: 35px;
+  border-radius: 20px;
+  border: 1px solid red;
+  outline: none;
+  color: white;
+  margin-top: 3px;
+  background: black;
+}
+input[name="submit"]:active {
+  opacity: 0.5;
+}
+
+@media screen and (min-width: 768px) {
+  .form-wrapper {
+    left: -1000px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .form-wrapper {
+    left: -1500px;
+  }
+  .servise div img {
+    width: 200px;
+  }
+  .servise {
+    justify-content: space-around;
+    margin-top: 60px;
+  }
+  h1 {
+    font-size: 35px;
+  }
+
+  .form-wrapper {
+    left: -1500px;
+  }
+  header p {
+    font-size: 25px;
+    line-height: 30px;
+  }
+}
+.visible {
+  left: 0;
 }
