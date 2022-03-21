@@ -49,9 +49,8 @@ header {
 }
 
 .services {
-  width: 140px;
-  margin: 0 auto;
   margin-top: 70px;
+  text-align: center;
 }
 h1,
 p {
